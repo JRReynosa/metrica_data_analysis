@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+tqdm = "*"
+pandas = "*"
+matplotlib = "*"
+numpy = "*"
+scikit-learn = "*"
+sqlalchemy = "*"
+setuptools = "*"
+analyticshandbook = {git = "https://github.com/JRReynosa/analytics-handbook.git"}
+
+[requires]
+python_version = "3.8"
